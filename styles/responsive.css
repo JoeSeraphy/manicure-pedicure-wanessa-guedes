@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  .container {
+    margin: 16px auto;
+    display: grid;
+    justify-content: center;
+    padding: 0 8px;
+  }
+  .container .backImg {
+    display: none;
+  }
+
+  .container .backImgMobile {
+    margin: 0 auto;
+  }
+
+  .container .backImgMobile .wanessaMobile {
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 426px) {
+  .container .imgText {
+    width: 100vw;
+  }
+  .container .imgText img {
+    width: 100%;
+  }
+  .container .text {
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .container .textP {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 24px;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .container .imgText .btnDiv {
+    padding: 0 16px;
+  }
+}
